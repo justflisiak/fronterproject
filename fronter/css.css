@@ -79,6 +79,7 @@ footer {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -197,8 +198,6 @@ a:hover {
     padding: 2em;
 }
 
-.messageform {}
-
 
 .input {
     padding: 1em;
@@ -252,6 +251,8 @@ h1 {
     font-style: normal;
 }
 
+
+
 #studentportfolio img {
     width: 10em;
     padding: 2em;
@@ -271,15 +272,16 @@ h1 {
     text-align: left;
 }
 
-#letter{
-    width: 20px;
-    
+#letter {
+    width: 30px;
+
 }
+
 label {
     justify-content: center;
 }
 
-#subject {
+.subject {
     padding: 3em;
     margin-bottom: 2em;
     justify-content: center font-family: itc-avant-garde-gothic-pro, sans-serif;
@@ -290,8 +292,8 @@ label {
 }
 
 #portfoliobtn {
-    width: 5em;
-    height: 3em;
+    width: 7em;
+    height: 4em;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 300;
     background-color: #ea5045;
@@ -300,6 +302,7 @@ label {
     background-color: #ea5045;
     color: black;
     border: 1px solid black;
+
 }
 
 #send {
@@ -309,5 +312,42 @@ label {
     text-align: center;
     color: black;
     border: 1px solid black;
+    width: 4em;
+    height: 2em;
+
+}
+
+#login {
+    animation-name: login;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes login {
+    0% {
+        background-color: #ea5045;
+    }
+
+    25% {
+        background-color: #ff671f;
+    }
+
+    50% {
+        background-color: #ea5045;
+    }
+
+    75% {
+        background-color: #ff671f;
+    }
+
+    0% {
+        background-color: #ea5045;
+    }
+
+    100% {
+        background-color: #ff671f;
+    }
 
 }
